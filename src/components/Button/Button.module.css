@@ -1,0 +1,30 @@
+.button
+{
+  display: flex;
+  font-family: sans-serif;
+  font-size: 11pt;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+img
+{
+  width: 26px;
+  height: 26px;
+}
+
+.button:hover
+{
+  background: #03f;
+}
+
+.button img
+{
+  filter: invert(25%);
+}
+
+.button:hover img
+{
+  filter: invert(100%);
+}

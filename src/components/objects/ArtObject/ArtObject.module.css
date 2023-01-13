@@ -1,0 +1,12 @@
+.artObject
+{
+    display: inline-block;
+    position: absolute;
+    overflow: hidden;
+}
+
+.artObject svg
+{
+    width: 100%;
+    height: 100%;
+}
